@@ -80,4 +80,8 @@ public class WikiDrugsController : MonoBehaviour
             TitleCanvas.SetBool("isOpen", true);
         }
     }
+
+    public void clickExit(){
+        Application.Quit();
+    }
 }
