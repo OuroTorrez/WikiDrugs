@@ -15,11 +15,11 @@ D:/shit/GiHubUnreal/NEWNEWNEWfalldivers/WikiDrugs/WikiDrugs
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52728
+60430
 Successfully changed project path to: D:/shit/GiHubUnreal/NEWNEWNEWfalldivers/WikiDrugs/WikiDrugs
 D:/shit/GiHubUnreal/NEWNEWNEWfalldivers/WikiDrugs/WikiDrugs
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 195.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021032 seconds.
+Registered in 0.001053 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
+- Completed reload, in  0.575 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1012ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (576ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (179ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (254ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.512212 seconds.
+Registered in 0.077824 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.090 seconds
+- Completed reload, in  1.540 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3092ms)
-		BeginReloadAssembly (295ms)
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (2600ms)
-			LoadAssemblies (1109ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1333ms)
+			LoadAssemblies (573ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (460ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (859ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (368ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (597ms)
-				ProcessInitializeOnLoadMethodAttributes (133ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.42 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.5 MB.
 System memory in use after: 67.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1936.
-Total: 6.100300 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.104900 ms MarkObjects: 5.604900 ms  DeleteObjects: 0.132000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 2.831700 ms (FindLiveObjects: 0.125900 ms CreateObjectMapping: 0.039000 ms MarkObjects: 2.622900 ms  DeleteObjects: 0.042800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,120 +132,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/assetsCIRCULO_FLECHA/menu_rectan.png
-  artifactKey: Guid(dda4ba78b1cbab240ac98f3ef0e741fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/menu_rectan.png using Guid(dda4ba78b1cbab240ac98f3ef0e741fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e02739d7ed62dba921ca0a32930e03a') in 0.371843 seconds 
-  Import took 0.379457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.053981 seconds.
-  path: Assets/assetsCIRCULO_FLECHA/menu_rectan.png
-  artifactKey: Guid(dda4ba78b1cbab240ac98f3ef0e741fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/menu_rectan.png using Guid(dda4ba78b1cbab240ac98f3ef0e741fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46756aa2e7710d0a04bf5a4a2d3fe839') in 0.191852 seconds 
-  Import took 0.196360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.049737 seconds.
-  path: Assets/assetsCIRCULO_FLECHA/rectangulo_Arri.png
-  artifactKey: Guid(c97d726a835873d4f99d327c3dd08968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/rectangulo_Arri.png using Guid(c97d726a835873d4f99d327c3dd08968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc2a623c7f8a3facf4973f4b3b519ca') in 0.036902 seconds 
-  Import took 0.040406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.738123 seconds.
-  path: Assets/assetsCIRCULO_FLECHA/rectangulo_Arri.png
-  artifactKey: Guid(c97d726a835873d4f99d327c3dd08968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/rectangulo_Arri.png using Guid(c97d726a835873d4f99d327c3dd08968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7644f06e7a2487acc7ff3c7cfa6d1832') in 0.030575 seconds 
-  Import took 0.035451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 292.092867 seconds.
-  path: Assets/assetsCIRCULO_FLECHA/rectangulo_Abaj.png
-  artifactKey: Guid(204886a7fa574fc459953b75c4e1d04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/rectangulo_Abaj.png using Guid(204886a7fa574fc459953b75c4e1d04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653266fd04c6c8b7d91bbcf354079ea9') in 0.028312 seconds 
-  Import took 0.032879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.034288 seconds.
-  path: Assets/assetsCIRCULO_FLECHA/rectangulo_Abaj.png
-  artifactKey: Guid(204886a7fa574fc459953b75c4e1d04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/rectangulo_Abaj.png using Guid(204886a7fa574fc459953b75c4e1d04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d4294ab8f88b438f9a1efcb472de9b') in 0.104702 seconds 
-  Import took 0.111213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 586.772358 seconds.
-  path: Assets/assetsCIRCULO_FLECHA/circle.png
-  artifactKey: Guid(e616375ed8bc12943b0e615ba864e311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/circle.png using Guid(e616375ed8bc12943b0e615ba864e311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af8eac584c1461fed9b8c7d64d449c') in 0.314723 seconds 
-  Import took 0.342335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.055360 seconds.
-  path: Assets/assetsCIRCULO_FLECHA/arrow.png
-  artifactKey: Guid(f656fef69dd0b4a44ab59cd9ed2e4a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsCIRCULO_FLECHA/arrow.png using Guid(f656fef69dd0b4a44ab59cd9ed2e4a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65461832d87ea49b558aef84f14b48a5') in 0.594529 seconds 
-  Import took 0.599812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1402.835847 seconds.
-  path: Assets/assetsMedicamentos/amlodi.png
-  artifactKey: Guid(97142c7590831ed47864566856d9681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsMedicamentos/amlodi.png using Guid(97142c7590831ed47864566856d9681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b2eda520b549c538c3a2f631aa8ca1') in 0.479775 seconds 
-  Import took 0.727795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.572698 seconds.
   path: Assets/assetsMedicamentos/aspiri.png
   artifactKey: Guid(6114187d29c3a4d4b840bc2aa18d3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsMedicamentos/aspiri.png using Guid(6114187d29c3a4d4b840bc2aa18d3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247dc2be2409a79127fc102a581720b9') in 0.569654 seconds 
-  Import took 0.615257 seconds .
+Start importing Assets/assetsMedicamentos/aspiri.png using Guid(6114187d29c3a4d4b840bc2aa18d3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a1850b7f267da23b7c64fa6d9da9c3') in 0.226827 seconds 
+  Import took 0.229015 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.491966 seconds.
+  Time since last request: 0.000300 seconds.
+  path: Assets/assetsMedicamentos/amlodi.png
+  artifactKey: Guid(97142c7590831ed47864566856d9681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetsMedicamentos/amlodi.png using Guid(97142c7590831ed47864566856d9681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15931d878197f0c953401fb3fe346cac') in 0.131712 seconds 
+  Import took 0.133800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.412858 seconds.
+  path: Assets/assetsMedicamentos/aspiri.png
+  artifactKey: Guid(6114187d29c3a4d4b840bc2aa18d3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetsMedicamentos/aspiri.png using Guid(6114187d29c3a4d4b840bc2aa18d3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28206b4dafdb9803455fbe8e40882ec') in 0.061009 seconds 
+  Import took 0.063551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.115031 seconds.
   path: Assets/assetsMedicamentos/levotiro.png
   artifactKey: Guid(0338b07856937034088979af238bc45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsMedicamentos/levotiro.png using Guid(0338b07856937034088979af238bc45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada1a90794b1ae50dda3d2aabd56308d') in 0.201584 seconds 
-  Import took 0.349896 seconds .
+Start importing Assets/assetsMedicamentos/levotiro.png using Guid(0338b07856937034088979af238bc45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4afba83d391b1ad8a23088b99cbf94a') in 0.012785 seconds 
+  Import took 0.015577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.147433 seconds.
+  Time since last request: 8.483613 seconds.
+  path: Assets/assetsMedicamentos/levotiro.png
+  artifactKey: Guid(0338b07856937034088979af238bc45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetsMedicamentos/levotiro.png using Guid(0338b07856937034088979af238bc45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0800c3affa3d648fdbc774039a2662bc') in 0.062635 seconds 
+  Import took 0.065119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.277762 seconds.
   path: Assets/assetsMedicamentos/omepra.png
   artifactKey: Guid(eeebb0f7f7e24db439f01d5737ee17b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsMedicamentos/omepra.png using Guid(eeebb0f7f7e24db439f01d5737ee17b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b019407e9977659d85409acb05c17a5') in 0.111920 seconds 
-  Import took 0.146416 seconds .
+Start importing Assets/assetsMedicamentos/omepra.png using Guid(eeebb0f7f7e24db439f01d5737ee17b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40b29f8cb42c3a61ab8b1f41b19d000') in 0.013999 seconds 
+  Import took 0.017087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.763627 seconds.
+  Time since last request: 5.390837 seconds.
+  path: Assets/assetsMedicamentos/omepra.png
+  artifactKey: Guid(eeebb0f7f7e24db439f01d5737ee17b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetsMedicamentos/omepra.png using Guid(eeebb0f7f7e24db439f01d5737ee17b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8a3a46d91fe695be2a700717fd5ae6') in 0.032412 seconds 
+  Import took 0.035641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.118363 seconds.
   path: Assets/assetsMedicamentos/paraceta.png
   artifactKey: Guid(7d0f77933e66f6643bc13a88b2da0a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsMedicamentos/paraceta.png using Guid(7d0f77933e66f6643bc13a88b2da0a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecad4ac8641589520e2f9b779d323d96') in 0.119518 seconds 
-  Import took 0.126359 seconds .
+Start importing Assets/assetsMedicamentos/paraceta.png using Guid(7d0f77933e66f6643bc13a88b2da0a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa46b1d6b9781f392c4d9c25d5aa583b') in 0.016448 seconds 
+  Import took 0.022315 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.936471 seconds.
+  Time since last request: 5.416822 seconds.
+  path: Assets/assetsMedicamentos/paraceta.png
+  artifactKey: Guid(7d0f77933e66f6643bc13a88b2da0a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetsMedicamentos/paraceta.png using Guid(7d0f77933e66f6643bc13a88b2da0a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148a2afa80d779114d496dc43794841a') in 0.023731 seconds 
+  Import took 0.027366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.612587 seconds.
   path: Assets/assetsMedicamentos/ramipril.png
   artifactKey: Guid(10d974b9cce1b494082614ba548d5755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsMedicamentos/ramipril.png using Guid(10d974b9cce1b494082614ba548d5755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64237f31969cd0c4b9ae74926d0f6661') in 0.130581 seconds 
-  Import took 0.197330 seconds .
+Start importing Assets/assetsMedicamentos/ramipril.png using Guid(10d974b9cce1b494082614ba548d5755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c364d326e028d32b1aa21564f9b21b3') in 0.028534 seconds 
+  Import took 0.031206 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.131813 seconds.
+  Time since last request: 5.165803 seconds.
+  path: Assets/assetsMedicamentos/ramipril.png
+  artifactKey: Guid(10d974b9cce1b494082614ba548d5755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetsMedicamentos/ramipril.png using Guid(10d974b9cce1b494082614ba548d5755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e42ffb2e2503ad835d1d56f1898ae4') in 0.025148 seconds 
+  Import took 0.028618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954690 seconds.
   path: Assets/assetsMedicamentos/simvas.png
   artifactKey: Guid(2918fc0cec7808445b1b7e0a91504d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assetsMedicamentos/simvas.png using Guid(2918fc0cec7808445b1b7e0a91504d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b9fa1238a713b636b977e7385ae03e') in 0.193812 seconds 
-  Import took 0.242768 seconds .
+Start importing Assets/assetsMedicamentos/simvas.png using Guid(2918fc0cec7808445b1b7e0a91504d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd95c85eab92053f3993e1bc21a01023') in 0.090227 seconds 
+  Import took 0.092557 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 4.843475 seconds.
+  path: Assets/assetsMedicamentos/simvas.png
+  artifactKey: Guid(2918fc0cec7808445b1b7e0a91504d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assetsMedicamentos/simvas.png using Guid(2918fc0cec7808445b1b7e0a91504d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec8462be43ed21281d8253b164e5b9d') in 0.058987 seconds 
+  Import took 0.061497 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
